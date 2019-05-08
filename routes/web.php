@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+|--------------------------------------------------------------------------
+| Frontend Routes
+|--------------------------------------------------------------------------
+|
+| All the routes for the frontend
+|
+*/
+
+Route::view('/', 'front-page')->name('home');
+Route::view('/services', 'services')->name('services');
+Route::view('/about', 'about')->name('about');
+Route::view('/contact', 'contact')->name('contact');
+Route::post('/contact', 'ContactController@processContactForm')->name('contact.post');
