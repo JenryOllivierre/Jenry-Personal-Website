@@ -1,8 +1,14 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+/* Tailwind's base styles */
+@tailwind preflight;
 
-// Variables
-@import 'variables';
+/* Component classes registered by plugins */
+@tailwind components;
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+/* Custom components */
+@import "tailwindcss/components";
+
+/* Tailwind's utility classes */
+@tailwind utilities;
+
+/* Custom Utility classes */
+@import "tailwindcss/utilities";
