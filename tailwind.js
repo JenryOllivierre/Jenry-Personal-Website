@@ -228,6 +228,15 @@ module.exports = {
       'Courier New',
       'monospace',
     ],
+    'display': [
+      'Open Sans Condensed',
+    ],
+    'special': [
+      'Rancho',
+    ],
+    'body': [
+      'Montserrat',
+    ]
   },
 
 
@@ -309,6 +318,7 @@ module.exports = {
     'none': 1,
     'tight': 1.25,
     'normal': 1.5,
+    'semi-loose': 1.75,
     'loose': 2,
   },
 
@@ -328,7 +338,9 @@ module.exports = {
 
   tracking: {
     'tight': '-0.05em',
+    'semi-normal': '-0.025em',
     'normal': '0',
+    'semi-wide': '0.025em',
     'wide': '0.05em',
   },
 

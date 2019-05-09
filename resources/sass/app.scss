@@ -5,10 +5,10 @@
 @tailwind components;
 
 /* Custom components */
-@import "tailwindcss/components";
+@import "tailwindcss/components.scss";
 
 /* Tailwind's utility classes */
 @tailwind utilities;
 
 /* Custom Utility classes */
-@import "tailwindcss/utilities";
+@import "tailwindcss/utilities.scss";
